@@ -1,0 +1,17 @@
+.home{
+    margin-top: 50px;
+}
+
+@media (min-width: 1000px){
+.Mobile{
+    display: none;
+}
+}
+
+
+@media (max-width: 1001px){
+.Desktop{
+    display: none;
+}
+}
+

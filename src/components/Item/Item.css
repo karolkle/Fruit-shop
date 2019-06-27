@@ -1,0 +1,35 @@
+.card-group > .card {
+  padding: 20px;
+ /* margin: 20px; */
+  transition-delay: 6s;
+  flex: auto;
+}
+.card-img{
+  height: 150px; 
+}
+.card img:hover{
+transform: scale(1.15);
+}
+
+.btn-secondary{
+  width: 100%;
+}
+
+
+@media (min-width: 1001px){
+  .card{
+    width: 33%;
+  }
+}
+
+@media (max-width: 1000px){
+  .card{
+      width: 50%;
+  }
+}
+
+@media (max-width: 750px){
+  .card{
+      width: 100%;
+  }
+}

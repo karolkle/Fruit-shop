@@ -1,0 +1,74 @@
+.btn-remove{
+border-radius: 100%;
+background: #b71c1c;
+color: #fff;
+text-align: center;
+font-size: 13px;
+cursor: pointer;
+}
+
+.btn-remove:hover{
+    background: red;
+}
+
+.cart-header{
+    display: flex;
+    padding: 10px 0;  
+}
+
+.item-row{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 0.5px solid gray;
+}
+.card-item, .card-quantity{
+    flex-grow: 1;
+    max-width: 115px;
+}
+
+.cart-item-title, .cart-quantity-title{
+    flex-grow: 1;
+    max-width: 115px;
+    font-weight: 700;
+}
+
+.btn-checkout{
+    margin-top: 15px;
+}
+
+.cost{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.checkout {
+    height: 100%;
+  }
+  
+  .checkout .title {
+    padding: 10px 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .checkout .table-container {
+    padding: 20px 50px 20px 50px;
+  }
+  
+  .checkout .ReactTable .rt-table {
+    background: #dce4ca;
+  }
+  
+  /*.checkout button {
+    margin: 10px 10px;
+    cursor: pointer;
+    height: 34px;
+    width: 150px;
+  }*/
+
+  .rt-td{
+    text-align: center;
+  }
